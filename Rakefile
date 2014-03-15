@@ -15,7 +15,7 @@ end
 task :do_test do
   rdm = RandomDirectoryManipulator.new('ruby-2.1.1', {seed: 1, verbose: false})
 
-  (1..2).each do |i| 
+  (1..30).each do |i| 
     puts "-- #{i} --"
     rdm.add_remove_update(1000)
 
