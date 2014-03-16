@@ -1,0 +1,254 @@
+$ rake init
+milk init db
+create     : db/milkode.yaml
+create     : /Users/ongaeshi/Documents/groonga-broated-database-test/db/db/milkode.db created.
+tar xzf ruby-2.1.1.tar.gz
+milk add ../ruby-2.1.1
+package    : ruby-2.1.1
+result     : 1 packages, 3900 records, 3900 add. (30.45sec)
+*milkode*  : 1 packages, 3900 records in /Users/ongaeshi/Documents/groonga-broated-database-test/db/db/milkode.db.
+$ time rake do_test
+-- 1 --
+milk update --all
+package    : ruby-2.1.1
+result     : 1 packages, 3912 records, 87 add, 668 update. (9.2sec)
+*milkode*  : 1 packages, 3912 records in /Users/ongaeshi/Documents/groonga-broated-database-test/db/db/milkode.db.
+du -h -d 1 .
+473M	./db
+473M	.
+-- 2 --
+milk update --all
+package    : ruby-2.1.1
+result     : 1 packages, 3904 records, 72 add, 683 update. (9.91sec)
+*milkode*  : 1 packages, 3904 records in /Users/ongaeshi/Documents/groonga-broated-database-test/db/db/milkode.db.
+du -h -d 1 .
+493M	./db
+493M	.
+-- 3 --
+milk update --all
+package    : ruby-2.1.1
+result     : 1 packages, 3903 records, 77 add, 696 update. (9.22sec)
+*milkode*  : 1 packages, 3903 records in /Users/ongaeshi/Documents/groonga-broated-database-test/db/db/milkode.db.
+du -h -d 1 .
+502M	./db
+502M	.
+-- 4 --
+milk update --all
+package    : ruby-2.1.1
+result     : 1 packages, 3925 records, 107 add, 605 update. (13.47sec)
+*milkode*  : 1 packages, 3925 records in /Users/ongaeshi/Documents/groonga-broated-database-test/db/db/milkode.db.
+du -h -d 1 .
+535M	./db
+535M	.
+-- 5 --
+milk update --all
+package    : ruby-2.1.1
+result     : 1 packages, 3917 records, 74 add, 669 update. (9.51sec)
+*milkode*  : 1 packages, 3917 records in /Users/ongaeshi/Documents/groonga-broated-database-test/db/db/milkode.db.
+du -h -d 1 .
+543M	./db
+543M	.
+-- 6 --
+milk update --all
+package    : ruby-2.1.1
+result     : 1 packages, 3894 records, 79 add, 631 update. (9.28sec)
+*milkode*  : 1 packages, 3894 records in /Users/ongaeshi/Documents/groonga-broated-database-test/db/db/milkode.db.
+du -h -d 1 .
+547M	./db
+547M	.
+-- 7 --
+milk update --all
+package    : ruby-2.1.1
+result     : 1 packages, 3895 records, 92 add, 637 update. (13.81sec)
+*milkode*  : 1 packages, 3895 records in /Users/ongaeshi/Documents/groonga-broated-database-test/db/db/milkode.db.
+du -h -d 1 .
+559M	./db
+559M	.
+-- 8 --
+milk update --all
+package    : ruby-2.1.1
+result     : 1 packages, 3875 records, 69 add, 661 update. (11.76sec)
+*milkode*  : 1 packages, 3875 records in /Users/ongaeshi/Documents/groonga-broated-database-test/db/db/milkode.db.
+du -h -d 1 .
+575M	./db
+575M	.
+-- 9 --
+milk update --all
+package    : ruby-2.1.1
+result     : 1 packages, 3850 records, 85 add, 620 update. (12.15sec)
+*milkode*  : 1 packages, 3850 records in /Users/ongaeshi/Documents/groonga-broated-database-test/db/db/milkode.db.
+du -h -d 1 .
+580M	./db
+580M	.
+-- 10 --
+milk update --all
+package    : ruby-2.1.1
+result     : 1 packages, 3828 records, 75 add, 659 update. (8.31sec)
+*milkode*  : 1 packages, 3828 records in /Users/ongaeshi/Documents/groonga-broated-database-test/db/db/milkode.db.
+du -h -d 1 .
+584M	./db
+584M	.
+-- 11 --
+milk update --all
+package    : ruby-2.1.1
+result     : 1 packages, 3824 records, 77 add, 663 update. (12.48sec)
+*milkode*  : 1 packages, 3824 records in /Users/ongaeshi/Documents/groonga-broated-database-test/db/db/milkode.db.
+du -h -d 1 .
+593M	./db
+593M	.
+-- 12 --
+milk update --all
+package    : ruby-2.1.1
+result     : 1 packages, 3830 records, 96 add, 627 update. (9.62sec)
+*milkode*  : 1 packages, 3830 records in /Users/ongaeshi/Documents/groonga-broated-database-test/db/db/milkode.db.
+du -h -d 1 .
+598M	./db
+598M	.
+-- 13 --
+milk update --all
+package    : ruby-2.1.1
+result     : 1 packages, 3828 records, 76 add, 689 update. (8.39sec)
+*milkode*  : 1 packages, 3828 records in /Users/ongaeshi/Documents/groonga-broated-database-test/db/db/milkode.db.
+du -h -d 1 .
+598M	./db
+598M	.
+-- 14 --
+milk update --all
+package    : ruby-2.1.1
+result     : 1 packages, 3796 records, 70 add, 646 update. (8.04sec)
+*milkode*  : 1 packages, 3796 records in /Users/ongaeshi/Documents/groonga-broated-database-test/db/db/milkode.db.
+du -h -d 1 .
+598M	./db
+598M	.
+-- 15 --
+milk update --all
+package    : ruby-2.1.1
+result     : 1 packages, 3772 records, 69 add, 672 update. (11.53sec)
+*milkode*  : 1 packages, 3772 records in /Users/ongaeshi/Documents/groonga-broated-database-test/db/db/milkode.db.
+du -h -d 1 .
+602M	./db
+602M	.
+-- 16 --
+milk update --all
+package    : ruby-2.1.1
+result     : 1 packages, 3735 records, 72 add, 630 update. (10.04sec)
+*milkode*  : 1 packages, 3735 records in /Users/ongaeshi/Documents/groonga-broated-database-test/db/db/milkode.db.
+du -h -d 1 .
+607M	./db
+607M	.
+-- 17 --
+milk update --all
+package    : ruby-2.1.1
+result     : 1 packages, 3694 records, 66 add, 655 update. (9.38sec)
+*milkode*  : 1 packages, 3694 records in /Users/ongaeshi/Documents/groonga-broated-database-test/db/db/milkode.db.
+du -h -d 1 .
+624M	./db
+624M	.
+-- 18 --
+milk update --all
+package    : ruby-2.1.1
+result     : 1 packages, 3686 records, 69 add, 664 update. (12.27sec)
+*milkode*  : 1 packages, 3686 records in /Users/ongaeshi/Documents/groonga-broated-database-test/db/db/milkode.db.
+du -h -d 1 .
+633M	./db
+633M	.
+-- 19 --
+milk update --all
+package    : ruby-2.1.1
+result     : 1 packages, 3659 records, 62 add, 678 update. (11.2sec)
+*milkode*  : 1 packages, 3659 records in /Users/ongaeshi/Documents/groonga-broated-database-test/db/db/milkode.db.
+du -h -d 1 .
+641M	./db
+641M	.
+-- 20 --
+milk update --all
+package    : ruby-2.1.1
+result     : 1 packages, 3645 records, 70 add, 654 update. (11.38sec)
+*milkode*  : 1 packages, 3645 records in /Users/ongaeshi/Documents/groonga-broated-database-test/db/db/milkode.db.
+du -h -d 1 .
+650M	./db
+650M	.
+-- 21 --
+milk update --all
+package    : ruby-2.1.1
+result     : 1 packages, 3620 records, 71 add, 655 update. (16.99sec)
+*milkode*  : 1 packages, 3620 records in /Users/ongaeshi/Documents/groonga-broated-database-test/db/db/milkode.db.
+du -h -d 1 .
+654M	./db
+654M	.
+-- 22 --
+milk update --all
+package    : ruby-2.1.1
+result     : 1 packages, 3614 records, 64 add, 679 update. (9.07sec)
+*milkode*  : 1 packages, 3614 records in /Users/ongaeshi/Documents/groonga-broated-database-test/db/db/milkode.db.
+du -h -d 1 .
+658M	./db
+658M	.
+-- 23 --
+milk update --all
+package    : ruby-2.1.1
+result     : 1 packages, 3598 records, 70 add, 676 update. (8.3sec)
+*milkode*  : 1 packages, 3598 records in /Users/ongaeshi/Documents/groonga-broated-database-test/db/db/milkode.db.
+du -h -d 1 .
+658M	./db
+658M	.
+-- 24 --
+milk update --all
+package    : ruby-2.1.1
+result     : 1 packages, 3561 records, 57 add, 663 update. (12.77sec)
+*milkode*  : 1 packages, 3561 records in /Users/ongaeshi/Documents/groonga-broated-database-test/db/db/milkode.db.
+du -h -d 1 .
+659M	./db
+659M	.
+-- 25 --
+milk update --all
+package    : ruby-2.1.1
+result     : 1 packages, 3532 records, 59 add, 664 update. (15.41sec)
+*milkode*  : 1 packages, 3532 records in /Users/ongaeshi/Documents/groonga-broated-database-test/db/db/milkode.db.
+du -h -d 1 .
+663M	./db
+663M	.
+-- 26 --
+milk update --all
+package    : ruby-2.1.1
+result     : 1 packages, 3517 records, 61 add, 673 update. (10.86sec)
+*milkode*  : 1 packages, 3517 records in /Users/ongaeshi/Documents/groonga-broated-database-test/db/db/milkode.db.
+du -h -d 1 .
+671M	./db
+671M	.
+-- 27 --
+milk update --all
+package    : ruby-2.1.1
+result     : 1 packages, 3500 records, 55 add, 706 update. (9.2sec)
+*milkode*  : 1 packages, 3500 records in /Users/ongaeshi/Documents/groonga-broated-database-test/db/db/milkode.db.
+du -h -d 1 .
+672M	./db
+672M	.
+-- 28 --
+milk update --all
+package    : ruby-2.1.1
+result     : 1 packages, 3475 records, 72 add, 638 update. (10.27sec)
+*milkode*  : 1 packages, 3475 records in /Users/ongaeshi/Documents/groonga-broated-database-test/db/db/milkode.db.
+du -h -d 1 .
+672M	./db
+672M	.
+-- 29 --
+milk update --all
+package    : ruby-2.1.1
+result     : 1 packages, 3430 records, 48 add, 660 update. (13.25sec)
+*milkode*  : 1 packages, 3430 records in /Users/ongaeshi/Documents/groonga-broated-database-test/db/db/milkode.db.
+du -h -d 1 .
+672M	./db
+672M	.
+-- 30 --
+milk update --all
+package    : ruby-2.1.1
+result     : 1 packages, 3401 records, 58 add, 674 update. (11.28sec)
+*milkode*  : 1 packages, 3401 records in /Users/ongaeshi/Documents/groonga-broated-database-test/db/db/milkode.db.
+du -h -d 1 .
+672M	./db
+672M	.
+
+real	8m7.533s
+user	5m16.804s
+sys	0m20.904s
